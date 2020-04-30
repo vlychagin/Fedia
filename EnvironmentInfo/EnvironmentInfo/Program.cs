@@ -27,6 +27,8 @@ namespace EnvironmentInfo
 			// Это добавили после размещения на GithubD
 			// Это добавили после размещения на GithubD
 			
+			// Это изменила Olga
+			
             Console.WriteLine($"{(new DriveInfo("c:").TotalFreeSpace) / 1024 / 1024:n0} МБайт");
             Console.Write("\n\n\t");
         }
