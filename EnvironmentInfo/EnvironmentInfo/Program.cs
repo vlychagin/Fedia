@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Ветвь Мастер
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,6 +16,9 @@ namespace EnvironmentInfo
             Console.WriteLine("Привет, мир!");
             Console.WriteLine($"Компьютер: {Environment.MachineName}, версия ОС: {Environment.OSVersion}");
 
+            // Ветвь Master
+			int t = 5;
+			
             Console.WriteLine($"{(new DriveInfo("c:").TotalFreeSpace) / 1024 / 1024:n0} МБайт");
             Console.Write("\n\n\t");
         }
