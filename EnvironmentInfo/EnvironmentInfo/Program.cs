@@ -1,4 +1,9 @@
-﻿// Ветвь Мастер
+// <<<<<<< HEAD
+﻿// Решение конфликта - оставить правки
+// Ветвь Мастер
+// =======
+﻿// Ветвь branch1
+// >>>>>>> branch1
 using System;
 using System.Collections.Generic;
 using System.IO;
