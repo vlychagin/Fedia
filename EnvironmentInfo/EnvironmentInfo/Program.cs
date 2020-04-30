@@ -24,6 +24,8 @@ namespace EnvironmentInfo
             // Ветвь Master
 			int t = 5;
 			
+			// Это добавили после размещения на Github
+			
             Console.WriteLine($"{(new DriveInfo("c:").TotalFreeSpace) / 1024 / 1024:n0} МБайт");
             Console.Write("\n\n\t");
         }
